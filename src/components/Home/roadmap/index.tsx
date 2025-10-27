@@ -106,13 +106,13 @@ export default function Roadmap() {
             <div className="flex justify-center gap-4 mt-12">
               <button
                 ref={prevRef}
-                className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-sky-500 transition"
+                className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-green-500 transition"
               >
                 ‹
               </button>
               <button
                 ref={nextRef}
-                className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-sky-500 transition"
+                className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-green-500 transition"
               >
                 ›
               </button>
